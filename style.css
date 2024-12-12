@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.containr{
+   
+    width: 100%;
+    height: 100vh;
+}
+.bttn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+.bttn button{
+
+     background-color: white;
+     border: none;
+     
+}
+
+.disply P{
+
+    width: 100%;
+    text-align: left;
+}
+.out{
+    display: flex;
+    flex-direction: column;
+    padding: 0 40%;
+    gap: 1rem;
+}
+.dot i{
+
+    font-size:40px;
+    margin-top: 10%;
+}
+.windw{
+
+  /* width: 50%; */
+
+}
+.windw p{
+
+    margin-top: 1%;
+    width: 100%;
+    font-weight: 500;
+    
+}
+
+@media all and (max-width:600px){
+
+    .dot{
+        
+        margin-left: 0px;
+    }
+    .disply{
+
+        margin-left: 0px;
+    }
+    .windw{
+        margin-left: 0px;
+    }
+    .out{
+        padding: 2rem;
+    }
+}
