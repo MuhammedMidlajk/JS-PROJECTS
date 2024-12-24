@@ -1,0 +1,73 @@
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+.incrementDecreament{
+
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.main{
+    height: 10%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.first{
+
+    width: 3.5%;
+    height:  65%;
+    border-top-left-radius : 5%;
+    border-bottom-left-radius:5% ;
+    border:none;
+    font-size: xx-large;
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.second {
+
+    height:  65%;
+    width: 10%;
+    border: none;
+    font-size:100%;
+    border: 1px solid #dddddd;
+    text-align: center;
+    background-color: white;
+    
+}
+.second p{
+    margin-top: 9%;
+    font-size:large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.third{
+
+    width: 3.5%;
+    height: 65%;
+    border-top-right-radius : 5%;
+    border-bottom-right-radius:5% ;
+    border: none;
+    font-size: x-large;
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.atag button{
+
+    margin-top: 1%;   
+    border: none;
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+} 
